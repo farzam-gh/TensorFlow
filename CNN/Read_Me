@@ -1,7 +1,9 @@
-This project, Utilizes CNN using TensorFlow.
-It  gets a folder with any desired number of subfolders which are different classes and It will learn from training data, Then It gets another sub folder named test data and classifies the images inside it.
-This specific example tries to categories three different dogs with about 150 samples in each and reshapes the image to 100 x 100 pixel.
+This project implements CNN using TensorFlow.
+It  gets a folder with any desired number of subfolders which are different classes and learns from training data, Then It gets another 
+sub folder named test data and classifies the images inside it.
+This specific example tries to categorize three different dogs with about 150 samples in each and reshapes the image to 100 x 100 pixels.
 It uses two convolutional layer with max pooling and a fully connected neural network with 1024 neurons to categorize the images.
-for best performance, The number of samples can be increased, the learning rate and the number of steps the training happens can be increased as well for the best resulr.
+for the best performance, The number of samples can be increased, playing with the parameters like learning rate and the number of steps
+and number of batches, the best accuracy can be acchieved.
 
 Good Luck!
